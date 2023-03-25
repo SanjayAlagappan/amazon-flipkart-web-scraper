@@ -2,37 +2,101 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.chat-area {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+  height: 80vh;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.chat-bubble {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  max-width: 70%;
+  border-radius: 20px;
+}
+
+.user {
+  background-color: #e8e8e8;
+  text-align: left;
+}
+
+.bot {
+  background-color: #18a0fb;
   color: white;
+  text-align: right;
 }
 
-.App-link {
-  color: #61dafb;
+.input-area {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 70%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #18a0fb;
+  color: white;
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+  border: 2px solid blue;
+  box-shadow: 0 0 10px blue;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-area {
+  width: 80%;
+  height: 60%;
+  overflow-y: scroll;
+}
+
+.input-area {
+  width: 80%;
+  margin-top: 20px;
+}
+.App{
+  max-width: 400px;
+  margin: 40px auto 0;
+  border: 1px solid #19bbed;
+     background-color:lightblue;
+  border-radius: 16px;
+
+}
+input{
+  border:1px solid black;
+}
+.response_card{
+   position: relative;
+   left: 65px;
+   border: 1px solid #19bbed;
+   background-color: white;
+   border-radius: 16px;
+
+   padding: 25px;
+   margin: 20px;
 }
