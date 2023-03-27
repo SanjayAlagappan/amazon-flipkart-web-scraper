@@ -80,7 +80,7 @@ input:focus {
   margin-top: 20px;
 }
 .App{
-  max-width: 400px;
+  max-width: 630px;
   margin: 40px auto 0;
   border: 1px solid #19bbed;
      background-color:lightblue;
@@ -91,12 +91,34 @@ input{
   border:1px solid black;
 }
 .response_card{
-   position: relative;
-   left: 65px;
+  position: relative;
    border: 1px solid #19bbed;
    background-color: white;
    border-radius: 16px;
-
    padding: 25px;
    margin: 20px;
+   font-weight: bolder;
+   font-size: 24px;
+   right: 166px;
+}
+.amazon_response_card,.flipkart_response_card{
+  border: 1px solid #19bbed;
+  background-color: white;
+  border-radius: 16px;
+  padding: 25px;
+  margin: 20px;
+  width: 176px;
+}
+.card_wrapper{
+  display: flex;
+}
+.card-body{
+  display: flex;
+}
+.card{
+  border-bottom: 1px solid black;
+  padding:0 0 10px 0;
+}
+.response_images{
+zoom: 0.5;
 }
