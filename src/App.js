@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="App">
-       <h2>GET THE BEST DEALS</h2>
+       <h2>Grab The Best Deals</h2>
       <ChatArea messages={messages} />
       <InputArea onSubmit={handleMessageSubmit} />
     </div>

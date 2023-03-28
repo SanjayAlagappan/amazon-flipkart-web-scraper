@@ -96,10 +96,10 @@ input{
    background-color: white;
    border-radius: 16px;
    padding: 25px;
-   margin: 20px;
    font-weight: bolder;
    font-size: 24px;
    right: 166px;
+   margin-top: 30px;
 }
 .amazon_response_card,.flipkart_response_card{
   border: 1px solid #19bbed;
@@ -121,4 +121,19 @@ input{
 }
 .response_images{
 zoom: 0.5;
+}
+.rating_para::after{
+   content:url('../public/rating-star.svg');
+   display: inline-block;
+   width: 16px;
+   position: relative;
+   left: 5px;
+   top: 1px;
+}
+.flipkart-logo,.amazon-logo{
+  width: 214px;
+  height: 80px;
+  zoom: 0.6;
+  position: relative;
+  left: 18px;
 }
