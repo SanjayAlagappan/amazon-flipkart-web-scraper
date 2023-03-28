@@ -15,7 +15,7 @@ function App() {
     userInpDiv.classList.add('response_card');
     userInpDiv.textContent=userInput;
     appDiv.appendChild(userInpDiv);
-    const response = await fetch(`http://localhost:3001/api/search/${userInput}`);
+    const response = await fetch(`https://shop-instant-api-service.onrender.com/api/search/${userInput}`);
     const data = await response.json();
     
     setMessages([
