@@ -80,10 +80,10 @@ input:focus {
   margin-top: 20px;
 }
 .App{
-  max-width: 630px;
+  min-width: 630px;
   margin: 40px auto 0;
   border: 1px solid #19bbed;
-     background-color:lightblue;
+  background-color:lightblue;
   border-radius: 16px;
 
 }
